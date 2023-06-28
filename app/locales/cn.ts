@@ -200,7 +200,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello:
+      "在[设置](/#/settings)页填入你自己的 OpenAI API Key。如果没有Key，请关注公众号'程序猿阿星'获取免费试用的API Key。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
